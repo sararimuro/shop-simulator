@@ -1,0 +1,24 @@
+TO SOLVE: too many units to unpack when trying to remove excessive products
+
+Brief overview for the shop simulator.
+Basic functions:
+1. Take in a list of products -
+2. Create an inventory with said products -
+2.1 If the amount of product reaches 0, automatically replenish stock ?
+3. Create a customer object with money -
+4. Let the customer select the products -
+5. bring them to the cash desk and pay for them -
+5.1. later implement paying with cash or by card, maybe accept float numbers ?
+5.2. Be able to customarily order products on demand if they are not in stock 
+and these products will take a random number of days to be manufactured and delivered !!
+6. If not enough money, dynamically decide what to get rid of so that it'll be enough -
+6.1 The till has a section of products where you can leave things you don't want to buy or don't have enough money for ?
+7. Make the program save the state of its products each day ?
+7.1 Each day there is a restocking and new products can be added to the inventory
+7.2 If there are no products, ask the client to return at a later date
+7.3 Maybe create a random generator of products that can choose from a list of names and assign random price/quantity values?
+
+!! The function to create an inventory should be a desired customer product list, and along with randomly daily selected products to be delivered to the store, those products will be ordered and arrive in stock in 24 hours (maybe?).
+
+Scratch that, how do I know how much money does the client need if he pays for all the products at once //Client gives money without denominations, gets returned a flat amount, and at the same time in parenthesis it is marked how many coins of which denomination were given out
+1, 5, 10, 1: 20, 1: 50, 2: 100, 1: 200, 1: 500
